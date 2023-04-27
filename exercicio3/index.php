@@ -22,7 +22,7 @@
        
 
         <div>
-            <label for="value2"> Orientação sexual: </label>     
+            <label for="value2"> Gênero: </label>     
             <input type="text" name="value2">
         </div>
 
@@ -32,6 +32,12 @@
             <input type="text" name="value3">
         </div>
 
-
+        <?php
+     $value2 = $_POST ["value2"];{
+     $value3 = $_POST ["value3"];         
+         if ($value2 == "feminino" && $value3 < 25);
+         echo "<h3> Aceita </h3>"; 
+    }
+    ?>
     <input type="submit" value="Enviar">
     </form>
