@@ -1,8 +1,9 @@
-Passos necessários para realizar exercícios em PHP:
+<h2> Passos necessários para realizar exercícios em PHP: </h2>
 1. Instale o Docker em sua máquina. É possível baixá-lo pelo site:  https://www.docker.com/ ;
-2. Caso use o sistema Windows é necessário baixar a extensão WSL2. A mesma irá possibilitar rodar o distribuições do Linux no Windows. Para mais informações, acesso o site: https://learn.microsoft.com/pt-br/windows/wsl/install ;
+2. Caso use o sistema Windows é necessário baixar a extensão WSL2. A mesma irá possibilitar rodar distribuições do Linux no Windows. Para mais informações, acesso o site: https://learn.microsoft.com/pt-br/windows/wsl/install ;
 3. Crie um arquivo docker-compose.yml no diretório raiz do seu projeto PHP;
 4. Inclua as informações abaixo no arquivo docker-compose.yml
+
 version: '3.9'
 services:
   php-apache:
