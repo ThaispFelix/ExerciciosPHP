@@ -33,8 +33,8 @@
         </div>
 
         <?php
-     $value2 = $_POST ["value2"];{
-     $value3 = $_POST ["value3"];         
+     $value2 = $_POST ['value2'];{
+     $value3 = $_POST ['value3'];         
          if ($value2 == "feminino" && $value3 < 25); {
            echo "<h3> Aceita </h3>"; 
         }
