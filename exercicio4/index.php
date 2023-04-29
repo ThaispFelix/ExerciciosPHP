@@ -25,5 +25,19 @@
             <label for="value3"><h3> Terceiro número: </h3></label>     
             <input type="number" name="value3">
         </div>
+        <?php
+        if (key_exists('value1', $_POST)) {
+            $value1 = $_POST ['value1'];
+            $value2 = $_POST ['value2'];
+            $value3 = $_POST ['value3'];
+            $values = [$value1, $value2, $value3];
+            rsort($values);
+            echo "<h3>Valores em ordem decrescente:</h3>";
+
+            foreach ($values as $value) {
+                echo "<p class = 'ordem'>".$value."<p>";
+            }
+        }
+         ?>
     <input type="submit" value="Enviar">
     </form>
