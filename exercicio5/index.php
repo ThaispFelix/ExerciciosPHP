@@ -24,8 +24,24 @@
             <label for="value3"> Digite o terceiro valor: </label>     
             <input type="numb" name="value3">
         </div>
-    <input type="submit" value="Enviar">
+    <input type="submit" value="Testar">
     </form>
+    <?php
+        $a = $_POST['value1'];
+        $b = $_POST['value2'];
+        $c = $_POST['value3'];
 
+        if( ($a+$b>$c)&&($a+$c>$b)&&($b+$c>$a) ){
+            if($a==$b && $b==$c)
+            echo "Triângulo equilátero";
+        elseif ($a==$b || $a==$c || $b==$c)
+            echo "Triângulo isósceles";
+        else
+            echo "Triângulo escaleno";
+        }
+        else
+            echo "O triângulo não existe";
+
+    ?>
 <body>
 </html> 
