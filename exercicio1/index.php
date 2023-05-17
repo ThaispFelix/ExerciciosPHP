@@ -23,7 +23,7 @@
     </form>
 
     <?php
-    if (key_exists('value1',$_POST) ){
+    if (array_key_exists('value1',$_POST) ){
 
         $value1 = $_POST['value1'];
         $value2 = $_POST['value2'];
