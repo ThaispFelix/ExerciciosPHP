@@ -12,11 +12,11 @@
     <h1>Exercício 1</h1>
     <form action="/exercicio1/index.php" method="post">
         <div>
-            <label for="value1"> Digite o primeiro valor </label>     
+            <label for="value1"> Digite o primeiro valor: </label>     
             <input type="number" name="value1">
         </div>
         <div>
-            <label for="value2"> Digite o segundo valor </label>
+            <label for="value2"> Digite o segundo valor: </label>
             <input type="number" name="value2">
         </div>
     <input type="submit" value="Enviar">
