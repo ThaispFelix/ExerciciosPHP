@@ -20,20 +20,20 @@
    <?php
     if(isset ($_POST['Divisor'])){
            $Divisor = $_POST['Divisor'];
-           if (($Divisor % 10 == 0) && ($Divisor % 5 == 0) && ($Divisor % 2 == 0)) {
-            echo "<h3> É divisível por 2, por 5 e por 10 </h3>";
+            if (($Divisor % 10 == 0) && ($Divisor % 5 == 0) && ($Divisor % 2 == 0)) {
+                echo "<h3> É divisível por 2, por 5 e por 10 </h3>";
            }
-           elseif ($Divisor % 5 == 0) { 
-            echo "<h3>É divisível por 5</h3>";
+            elseif ($Divisor % 5 == 0) { 
+                echo "<h3>É divisível por 5</h3>";
            } 
-           elseif ($Divisor % 2 == 0) { 
-            echo "<h3>É divisível por 2</h3>";
+            elseif ($Divisor % 2 == 0) { 
+                echo "<h3>É divisível por 2</h3>";
            } 
-           elseif ($Divisor) {
-            echo "<h3>Não é divisível por 10, 5 ou 2</h3>";
+            elseif ($Divisor) {
+                echo "<h3>Não é divisível por 10, 5 ou 2</h3>";
            }
-           elseif  ($Divisor % 10 == 0) {
-            echo "<h3>É divisivel por 10</h3>";
+            elseif  ($Divisor % 10 == 0) {
+                echo "<h3>É divisivel por 10</h3>";
            }
     } 
     ?>
