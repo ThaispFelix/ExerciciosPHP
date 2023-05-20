@@ -18,7 +18,7 @@
         </div>
         <div>
             <label for="value2"> Digite o segundo valor: </label>     
-            <input type="numb" name="value3">
+            <input type="numb" name="value2">
         </div>
         <div>
             <label for="value3"> Digite o terceiro valor: </label>     
@@ -27,21 +27,22 @@
     <input type="submit" value="Testar">
     </form>
     <?php
+    if (array_key_exists('value1',$_POST) ){
         $a = $_POST['value1'];
         $b = $_POST['value2'];
         $c = $_POST['value3'];
 
         if( ($a+$b>$c)&&($a+$c>$b)&&($b+$c>$a) ){
             if($a==$b && $b==$c)
-            echo "Triângulo equilátero";
-        elseif ($a==$b || $a==$c || $b==$c)
-            echo "Triângulo isósceles";
-        else
-            echo "Triângulo escaleno";
+                echo "Triângulo equilátero";
+            elseif ($a==$b || $a==$c || $b==$c)
+                echo "Triângulo isósceles";
+            else
+                echo "Triângulo escaleno";
         }
-        else
-            echo "O triângulo não existe";
-
+            else
+                echo "Otriângulo não existe";
+    }
     ?>
-<body>
+</body>
 </html> 
