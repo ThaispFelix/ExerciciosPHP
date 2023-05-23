@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/exercicio4/style.CSS">
-    <title>Exercício 4</title>
-               
+    <title>Exercício 4</title>               
 </head>
+
 <body>
     <h1>Exercício 4</h1>
     <h2>Colocando números em ordem decrescente:</h2>
