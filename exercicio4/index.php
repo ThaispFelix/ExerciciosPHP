@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/exercicio4/style.CSS">
-        <title>Exercício 4</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/exercicio4/style.CSS">
+    <title>Exercício 4</title>
                
 </head>
 <body>
@@ -25,7 +25,9 @@
             <label for="value3"><h3> Terceiro número: </h3></label>     
             <input type="number" name="value3">
         </div>
-        <?php
+    <input type="submit" value="Enviar">
+    </form>
+    <?php
         if (key_exists('value1', $_POST)) {
             $value1 = $_POST ['value1'];
             $value2 = $_POST ['value2'];
@@ -38,6 +40,6 @@
                 echo "<p class = 'ordem'>".$value."<p>";
             }
         }
-         ?>
-    <input type="submit" value="Enviar">
-    </form>
+    ?>
+</body>    
+</html>
