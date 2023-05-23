@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/exercicio6/style.CSS">
-        <title>Exercício 6</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/exercicio6/style.CSS">
+    <title>Exercício 6</title>
               
 </head>
 <body>
@@ -17,6 +17,7 @@
         <br><input class="btn" type="submit" name="btnCalcular" value="Mês Correspondente:"/></br> 
     </form>
     <?php
+	 if (array_key_exists('Mês',$_POST) ){
 		$variavel = $_POST["Mês"];
 		switch ($variavel) {
 			  case 1:
@@ -59,6 +60,7 @@
 				  echo "Não existe mês correspondente";
 			  break;
 		}
-?>
+	}	
+	?>
 <body>
 </html> 
