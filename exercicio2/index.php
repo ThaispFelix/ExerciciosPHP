@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Exercício 2</h1>
-    <h3>Digite um número e saberá se o valor é divisível por 10, por 5, por 2 ou por nenhum desses</h3>
+    <h3>Digite um número e saberá se o valor é divisível por 10, por 5, por 2 ou por nenhum desses:</h3>
     <form action="/exercicio2/index.php" method="post">
         <div>
             <label for="Divisor"> Digite o valor: </label>     
