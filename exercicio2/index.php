@@ -18,10 +18,8 @@
             <label for="Divisor"> Digite o valor: </label>     
             <input type="text" name="Divisor">
         </div>
-       
     <input type="submit" Divisor="Enviar">
     </form>
-
    <?php
     if(isset ($_POST['Divisor'])){
            $Divisor = $_POST['Divisor'];
@@ -42,5 +40,5 @@
            }
     } 
     ?>
-<body>
+</body>
 </html>   
