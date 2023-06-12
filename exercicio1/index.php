@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/exercicio1/style.css">
-        <title>Exercício 1</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/exercicio1/style.css">
+    <title>Exercício 1</title>
         
 </head>
 <body>
@@ -27,18 +27,15 @@
 
         $value1 = $_POST['value1'];
         $value2 = $_POST['value2'];
-
-        echo "<div>$value1</div>";
         $total = $value1 + $value2;
 
         if ($total > 20) {
-            $total = $total + 8;
+            echo "O resultado é: " .($total + 8);
         }
-        else {
-            $total = $total - 5;
+        elseif ($total <= 20) {
+            echo "O resultado é: ".($total - 5);
         }
     }
-    echo "<div class='result'>0 resultado foi: $total</div>"
     ?>
-<body>
+</body>
 </html>   
