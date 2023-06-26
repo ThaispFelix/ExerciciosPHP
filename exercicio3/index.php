@@ -10,7 +10,7 @@
 </head>
 <body>
     <h1 class = "titilo fonte-grande">Exercício 3</h1>
-    <h2 class = "sublinhado">Formulário de Identificação Pessoal</h2>
+    <h2 class = "sublinhado">Formulário de Identificação Pessoal:</h2>
     <form action="/exercicio3/index.php" method="post">   
         <div>
             <label for="nome"> Nome: </label>     
