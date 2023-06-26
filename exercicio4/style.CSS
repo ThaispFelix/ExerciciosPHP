@@ -1,4 +1,4 @@
-body{
+body {
     background-color: pink;
 }
 div {
@@ -12,4 +12,13 @@ input [type=number] {
 }
 .result {
     font-size: 5px;
+}
+.titulo {
+    color:brown;
+    text-align:center;
+    font-size:5em;
+    border:2px solid red;
+}
+.subtitulo {
+    font-size:2em;
 }
