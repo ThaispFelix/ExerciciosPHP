@@ -17,7 +17,7 @@
         <br><input class="btn" type="submit" name="btnCalcular" value="Mês Correspondente:"/></br> 
     </form>
     <?php
-	 if (array_key_exists('Mês',$_POST) ){
+	 if (array_key_exists('Mês',$_POST)){
 		$variavel = $_POST["Mês"];
 		switch ($variavel) {
 			  case 1:
