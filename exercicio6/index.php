@@ -16,5 +16,49 @@
             <input type="text" name="Mês"/>
         <br><input class="btn" type="submit" name="btnCalcular" value="Mês Correspondente:"/></br> 
     </form>
+    <?php
+		$variavel = $_POST["Mês"];
+		switch ($variavel) {
+			  case 1:
+				  echo "O Mês é Janeiro";
+			  break;
+			  case 2:
+				  echo "O Mês é Fevereiro";
+			  break;
+			  case 3:
+				  echo "O Mês é Março";
+			  break;
+			  case 4: 
+				  echo "O Mês é Abril";
+			  break;
+			  case 5:
+				  echo "O Mês é Maio";
+			  break;
+			  case 6:
+				  echo "O Mês é Junho";
+			  break;
+			  case 7:
+				  echo "O Mês é Julho";
+			  break;
+			  case 8:
+				  echo "O Mês é Agosto";
+			  break;
+			  case 9:
+				  echo "O Mês é Setembro";
+			  break;
+			  case 10:
+				  echo "O Mês é Outubro";
+			  break;
+			  case 11:
+				  echo "O Mês é Novembro";
+			  break;
+			  case 12:
+				  echo "O Mês é Dezembro";
+			  break;
+			  default:
+				  echo "Não existe mês correspondente";
+			  break;
+		}
+?>
 <body>
 </html> 
