@@ -17,11 +17,11 @@
         </div>    
         <div>
             <label for="genero"> Gênero: </label>     
-            <select>
-                    <option> Feminino </option>
-                    <option> Masculino </option>
-                    <option> Não binário </option>
-                </select>
+            <select name= "genero">
+                <option> Feminino </option>
+                <option> Masculino </option>
+                <option> Não binário </option>
+            </select>
         </div>
         <div>
             <label for="idade"> Idade: </label>     
@@ -29,31 +29,40 @@
         </div>
 
     <?php
-    if (array_key_exists ('genero',$_POST) ){
-     $genero = $_POST ['genero'];{
-     $idade = $_POST ['idade'];         
-        if ($genero == "feminino" && $idade < 25) {
+   if (array_key_exists ('idade',$_POST) ){
+   if (array_key_exists ('genero',$_POST) ){  
+    $genero = $_POST ['genero']; 
+    $idade = $_POST ['idade'];
+        if ($idade) {     
+        if ($genero == "Feminino" && $idade < 25) {
            echo "<h3> Aceita </h3>"; 
         }
-        elseif ($genero == "masculino") {
+        elseif ($genero == "Masculino") {
            echo "<h3> Não aceito </h3>";    
         } 
-        elseif ($genero == "não binário") {
+        elseif ($genero == "Não binário") {
            echo "<h3> Não aceito </h3>";
         }
-        elseif ($genero == "feminino" && $idade > 25) {
+        elseif ($genero == "Feminino" && $idade > 25) {
             echo "<h3> Não aceita </h3>";
         }
-        elseif ($genero == "feminino" && $idade == 25) {
+        elseif ($genero == "Feminino" && $idade == 25) {
             echo "<h3> Aceita </h3>";
         }
-        elseif ($genero == "feminino") {
+    } 
+     elseif ($genero == "Feminino") {
             echo "<h3> Falta preencher o campo idade </h3>";
         }
+     elseif ($genero == "Masculino") {
+            echo "<h3> Falta preencher o campo idade </h3>";
         }
-    }   
+     elseif ($genero == "Não binário") {
+            echo "<h3> Falta preencher o campo idade </h3>";
+        }
+    }  
+    }
     ?>
-    <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>    
