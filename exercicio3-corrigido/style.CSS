@@ -1,0 +1,27 @@
+body {
+    background-color: brown;
+}
+div {
+    margin: 30px 0px;
+}    
+input[type=text] {
+    width: 100px;
+    padding:12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.result {
+    font-size:20px;
+}
+h1, .titulo {
+    font-size: 3rem;
+    color:cornsilk;
+    text-align: center;
+    font-style: italic;
+}
+.fonte-grande {
+    font-size: 40px;
+}
+.sublinhado {
+    text-decoration: underline;
+}
