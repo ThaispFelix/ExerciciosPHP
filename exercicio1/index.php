@@ -20,6 +20,7 @@
         </div>
         <input type="submit" value="Enviar">
     </form>
+    
     <?php
     if (array_key_exists('value1',$_POST) ){
 
