@@ -18,7 +18,7 @@
         </div>
         <div>
             <label for="genero"> Gênero: </label>     
-                <select>
+                <select name = "genero">
                     <option> Feminino </option>
                     <option> Masculino </option>
                     <option> Não binário </option>
@@ -28,7 +28,32 @@
             <label for="idade"> Idade: </label>     
             <input type="text" name="idade">
         </div>
-    <input type="submit" value="Enviar">
+        
+    <?php
+   if (array_key_exists ('idade',$_POST) && array_key_exists ('genero',$_POST) ){ 
+    $genero = $_POST ['genero'];
+    $idade = $_POST ['idade'];    
+        if ($idade) {
+        if ($genero == "Feminino" && $idade < 25) {
+           echo "<h3> Aceita </h3>"; 
+        }
+        elseif ($genero == "Masculino") {
+           echo "<h3> Não aceito </h3>";    
+        } 
+        elseif ($genero == "Não binário") {
+           echo "<h3> Não aceito </h3>";
+        }
+        elseif ($genero == "Feminino" && $idade > 25) {
+            echo "<h3> Não aceita </h3>";
+        }
+        elseif ($genero == "Feminino" && $idade == 25) {
+            echo "<h3> Aceita </h3>";
+        }
+    }
+    } 
+    ?>
+        <input type="submit" value="Enviar">
     </form>
 </body>
-</html>    
+</html>       
+       
