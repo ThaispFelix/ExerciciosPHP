@@ -10,7 +10,8 @@
 <body>
     <h1 class= "titulo">Exercício 4</h1>
     <h2 class= "subtitulo">Colocando números em ordem decrescente:</h2>
-    <form action="/exercicio4corrigido/index.php" method="post">     
+    <form action="/exercicio4corrigido/index.php" method="post">
+        
         <div>
             <label for="value1"><h3> Primeiro número: </h3></label>     
             <input type="number" name="value1">
@@ -25,5 +26,42 @@
         </div>
         <input type="submit" value="Enviar">
     </form>
-</body>
-</html>    
+    <?php
+        if (array_key_exists('value1', $_POST) && array_key_exists('value2', $_POST) && array_key_exists('value3', $_POST)) {
+            $value1 = $_POST ['value1'];
+            $value2 = $_POST ['value2'];
+            $value3 = $_POST ['value3'];
+                if ($value1 < $value2 && $value2 < $value3 && $value1 < $value3) {
+                    echo "A ordem decrescente é: <br> ".($value3);
+                    echo "<br>" .($value2);
+                    echo "<br>" .($value1);
+                }
+                elseif ($value1< $value2 && $value3 < $value2) {
+                    echo "A ordem decrescente é: <br> ".($value2);
+                    echo "<br>" .($value3);
+                    echo "<br>" .($value1);
+                }
+                elseif ($value2 < $value1 && $value1 < $value3) {
+                    echo "A ordem decrescente é: <br> ".($value3);
+                    echo "<br>" .($value1);
+                    echo "<br>" .($value2);
+                }
+                elseif ($value2 < $value3 && $value3< $value1) {
+                    echo "A ordem decrescente é: <br> ".($value1);
+                    echo "<br>" .($value3);
+                    echo "<br>" .($value2);
+                }
+                elseif ($value3<$value1 && $value1< $value2) {
+                    echo "A ordem decrescente é: <br> ".($value2);
+                    echo "<br>" .($value1);
+                    echo "<br>" .($value3);
+                }
+                else{
+                    echo "A ordem decrescente é: <br> ".($value1);
+                    echo "<br>" .($value2);
+                    echo "<br>" .($value3);
+                }
+        }
+    ?>
+</body>    
+</html>
