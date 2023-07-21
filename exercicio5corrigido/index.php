@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/exercicio5/style.CSS">
+    <link rel="stylesheet" href="/exercicio5corrigido/style.CSS">
     <title>Exercício 5</title>
               
 </head>
 <body>
-    <h1>Exercício 5</h1>
-    <h3>Digite 3 valores para a criação de um triângulo:</h3>
-    <form action="/exercicio5/index.php" method="post">
+    <h1 class= "titulo">Exercício 5</h1>
+    <h3 class= "titulo">Digite 3 valores para a criação de um triângulo:</h3>
+    <form action="/exercicio5corrigido/index.php" method="post">
         <div>
             <label for="value1"> Digite o primeiro valor: </label>     
             <input type="numb" name="value1">
@@ -24,7 +24,7 @@
             <label for="value3"> Digite o terceiro valor: </label>     
             <input type="numb" name="value3">
         </div>
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar" class= "botao-input">
     </form>
 </body>
 </html> 
