@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1 class= "titulo">Exercício 5</h1>
-    <h3 class= "titulo">Digite 3 valores para a criação de um triângulo:</h3>
+    <h3 class= "titulo">Digite 3 valores para a criação de um triângulo</h3>
     <form action="/exercicio5corrigido/index.php" method="post">
         <div>
             <label for="value1"> Digite o primeiro valor: </label>     
