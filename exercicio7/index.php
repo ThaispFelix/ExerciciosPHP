@@ -23,6 +23,7 @@
                     <option>Aluno</option>   
                 </select>    
         </div>
-        <input type= "submit" value= "Solicitar empréstimo" class= "botao-input">     
+        <input type= "submit" value= "Solicitar empréstimo" class= "botao-input">  
+    </form>           
 </body>
 </html>    
