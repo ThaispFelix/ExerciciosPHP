@@ -15,5 +15,6 @@
   <a href="/exercicio4corrigido">Exercicio 4</a>
   <a href="/exercicio5corrigido">Exercicio 5</a>
   <a href="/exercicio6">Exercicio 6</a>
+  <a href="/exercicio6/readme">Readme</a> 
 </body>
 </html>   
