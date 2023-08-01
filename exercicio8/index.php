@@ -17,5 +17,17 @@
         </div>
         <input type= "submit" value="Enviar">     
     </form>
+    <?php
+    if (array_key_exists ('numero', $_POST)) {
+        $numero= $_POST['numero'];
+        $produto = 1;
+        echo "<h3> De 1 até $numero:</h3>";
+        for ($i = 1; $i <= $numero; $i++) {
+            echo "<li>$i</li>";
+            $produto *= $i;
+        }
+        echo "<h2>Produto: $produto</h2>";
+    }
+    ?>
 </body>
 </html>    
