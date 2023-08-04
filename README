@@ -1,4 +1,5 @@
 <a href="/README">README</a>
+
 <h2>## Passos necessários para realizar exercícios em PHP:</h2> 
 <p>1. Instale o Docker em sua máquina. É possível baixá-lo pelo site:  https://www.docker.com/ ;</p>
 <p>2. Caso use o sistema Windows, é necessário baixar a extensão WSL2. A mesma irá possibilitar rodar distribuições do Linux no Windows. Para mais informações, acesso o site: https://learn.microsoft.com/pt-br/windows/wsl/install ;</p>
