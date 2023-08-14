@@ -119,7 +119,7 @@ class Exercício6Cest
         // Eu vejo "O Mês é Dezembro"
         $I->see("O Mês é Dezembro");
 
-        // Eu digito 13 no campo Mês
+        // Eu digito 13 no campo Mês (pode ser outro número acima de 13 também)
         $I->fillField("Mês","13");
         // Eu clico em Mês Correspondente
         $I->click("Mês Correspondente:");
