@@ -23,7 +23,18 @@
                     <option>Aluno</option>   
                 </select>    
         </div>
-        <input type= "submit" value= "Solicitar empréstimo" class= "botao-input">  
-    </form>           
+        <input type= "submit" value= "Solicitar empréstimo" class= "botao-input"> 
+    </form>
+    <?php
+        if (array_key_exists('identificacao', $_POST)) {
+            $identificacao = $_POST ['identificacao'];
+                if ($identificacao == "Professor") {
+                    echo "<h3>Prazo de devolução é de 10 dias a partir de hoje</h3>";
+                }
+                if ($identificacao == "Aluno") {
+                    echo "<h3>Prazo de devolução é de 3 dias a partir de hoje</h3>";
+                }
+        }
+    ?>
 </body>
 </html>    
