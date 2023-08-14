@@ -13,7 +13,7 @@
     <h3>Sistema de empréstimo de livros</h3>
     <form action="/exercicio7/index.php" method="post">
         <div>
-            <label for= "nome"> Nome do exemplar:</label>
+            <label for= "nome"> Nome do exemplar</label>
             <input type="text" name="nome">
         </div>
         <div>
