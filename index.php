@@ -9,7 +9,7 @@
 </head>
 <body>
   <h1>Índice </h1>
-  <a href="/README">README</a>
+  <a href="/README.md">README</a>
   <a href="/exercicio1">Exercicio 1</a>
   <a href="/exercicio2">Exercicio 2</a>
   <a href="/exercicio3">Exercicio 3</a>
