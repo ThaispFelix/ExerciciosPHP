@@ -9,3 +9,4 @@
  # 3. Execute o comando `docker-compose up -d` no terminal, dentro do diretório raiz do seu projeto;
 
  # 4. Acesse o ambiente pronto, com seu código PHP, no seu navegador em [http://localhost:8080].
+ 
