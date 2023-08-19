@@ -14,5 +14,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require-dev": {
+        "codeception/codeception": "5.0.x-dev",
+        "codeception/module-phpbrowser": "*",
+        "codeception/module-asserts": "*"
+    }
 }
