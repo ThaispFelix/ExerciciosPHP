@@ -23,11 +23,15 @@ class FirstCest
     // tests
     public function TitleExercicio1Test(AcceptanceTester $I)
     {
+        $I->amOnPage("/exercicio1");
+        $I->seeInTitle("Exercício 1");
+        $I->see('Exercício 1', 'h1');
     }
 
     // tests
     public function tryToTest(AcceptanceTester $I)
     {
+        
     }
 
 
