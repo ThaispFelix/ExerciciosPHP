@@ -42,18 +42,18 @@ class FirstCest
          // Eu vejo "É divisível por 2, por 5 e por 10"
          $I->see("É divisível por 2, por 5 e por 10");
 
-          // Eu estou na página "exercicio2"
-          $I->amOnPage("/exercicio2");
-          // Eu vejo "Digite o valor:"
-          $I->see("Digite o valor:");
-          // Eu digito 15 no campo Divisor
-          $I->fillField("Divisor", "15"); 
-          // Eu clico em Enviar
-          $I->click("Enviar");
-          // Eu vejo "É divisível por 5"
-          $I->see("É divisível por 5");
+         // Eu estou na página "exercicio2"
+         $I->amOnPage("/exercicio2");
+         // Eu vejo "Digite o valor:"
+         $I->see("Digite o valor:");
+         // Eu digito 15 no campo Divisor
+         $I->fillField("Divisor", "15"); 
+         // Eu clico em Enviar
+         $I->click("Enviar");
+         // Eu vejo "É divisível por 5"
+         $I->see("É divisível por 5");  
 
-        // Eu estou na página "exercicio2"
+         // Eu estou na página "exercicio2"
          $I->amOnPage("/exercicio2");
          // Eu vejo "Digite o valor:"
          $I->see("Digite o valor:");
