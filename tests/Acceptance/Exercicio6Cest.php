@@ -95,5 +95,10 @@ class Exercício6Cest
         // Eu clico em Mês Correspondente
         $I->click("Mês Correspondente:");
 
+        // Eu digito 13 no campo Mês
+        $I->fillField("Mês","13");
+        // Eu clico em Mês Correspondente
+        $I->click("Mês Correspondente:");
+
     } 
 }
