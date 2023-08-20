@@ -17,7 +17,7 @@ class FirstCest
         $I->amOnPage("/");
         $I->see("Exercicio 1");
         $I->click("Exercicio 1");
-        $I->seeInTitle("Exercicio 1");
+        $I->seeInTitle("Exercício 1");
     }
 
     // tests
