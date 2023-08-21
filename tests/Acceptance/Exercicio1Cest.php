@@ -31,49 +31,28 @@ class FirstCest
     // tests
     public function tryToTest(AcceptanceTester $I)
     {
-        // Eu estou na página "exercicio1"
         $I->amOnPage("/exercicio1");
-        // Eu vejo "Digite o primeiro valor:"
         $I->see("Digite o primeiro valor:");
-        // Eu digito 11 no campo valuu1
         $I->fillField("value1", "11");
-        // Eu vejo "Digite o segundo valor:"
         $I->see("Digite o segundo valor:");
-        // Eu digito 10 no campo value2
         $I->fillField("value2", "10");
-        // Eu clico em Enviar
         $I->click("Enviar");
-        // Eu vejo "O resultado é: 29"
         $I->see("O resultado é: 29");
 
-        // Eu estou na página "exercicio1"
         $I->amOnPage("/exercicio1");
-        // Eu vejo "Digite o primeiro valor:"
         $I->see("Digite o primeiro valor:");
-        // Eu digito 10 no campo valuu1
         $I->fillField("value1", "10");
-        // Eu vejo "Digite o segundo valor:"
         $I->see("Digite o segundo valor:");
-        // Eu digito 10 no campo value2
         $I->fillField("value2", "10");
-        // Eu clico em Enviar
         $I->click("Enviar");
-        // Eu vejo "O resultado é: 15"
         $I->see("O resultado é: 15");
 
-        // Eu estou na página "exercicio1"
         $I->amOnPage("/exercicio1");
-        // Eu vejo "Digite o primeiro valor:"
         $I->see("Digite o primeiro valor:");
-        // Eu digito 10 no campo value1
         $I->fillField("value1", "10");
-        // Eu vejo "Digite o segundo valor:"
         $I->see("Digite o segundo valor:");
-        // Eu digito 9 no campo value2
         $I->fillField("value2", "9");
-        // Eu clico em Enviar
         $I->click("Enviar");
-        // Eu vejo "O resultado é: 14"
         $I->see("O resultado é: 14");
 
     }
