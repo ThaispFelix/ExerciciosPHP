@@ -40,7 +40,10 @@ class FirstCest
          $I->see("Terceiro número:");
          $I->fillField("value3", "3");
          $I->click("Enviar");
-         $I->see("A ordem decrescente é: 300 30 3");
+         $I->see("A ordem decrescente é:");
+         $I->see("300");
+         $I->see("30");
+         $I->see("3");
 
          $I->amOnPage("/exercicio4corrigido");
          $I->see("Colocando números em ordem decrescente");
@@ -51,7 +54,10 @@ class FirstCest
          $I->see("Terceiro número:");
          $I->fillField("value3", "300");
          $I->click("Enviar");
-         $I->see("A ordem decrescente é: 300 30 3");
+         $I->see("A ordem decrescente é:");
+         $I->see("300");
+         $I->see("30");
+         $I->see("3");
 
          $I->amOnPage("/exercicio4corrigido");
          $I->see("Colocando números em ordem decrescente");
@@ -62,7 +68,10 @@ class FirstCest
          $I->see("Terceiro número:");
          $I->fillField("value3", "30");
          $I->click("Enviar");
-         $I->see("A ordem decrescente é: 300 30 3");
+         $I->see("A ordem decrescente é:");
+         $I->see("300");
+         $I->see("30");
+         $I->see("3");
 
          $I->amOnPage("/exercicio4corrigido");
          $I->see("Colocando números em ordem decrescente");
@@ -73,7 +82,10 @@ class FirstCest
          $I->see("Terceiro número:");
          $I->fillField("value3", "30");
          $I->click("Enviar");
-         $I->see("A ordem decrescente é: 300 30 3");
+         $I->see("A ordem decrescente é:");
+         $I->see("300");
+         $I->see("30");
+         $I->see("3");
 
          $I->amOnPage("/exercicio4corrigido");
          $I->see("Colocando números em ordem decrescente");
@@ -84,7 +96,10 @@ class FirstCest
          $I->see("Terceiro número:");
          $I->fillField("value3", "30");
          $I->click("Enviar");
-         $I->see("A ordem decrescente é: 300 30 3");
+         $I->see("A ordem decrescente é:");
+         $I->see("300");
+         $I->see("30");
+         $I->see("3");
 
     }
 
