@@ -40,7 +40,8 @@ class FirstCest
          $I->fillField("idade", "24");
          $I->click("Enviar");
          $I->see("Aceita");
-
+         $I->see("Enviar");
+         
          $I->amOnPage("/exercicio3");
          $I->see("Nome:");
          $I->fillField("nome", "Thais");
@@ -50,6 +51,7 @@ class FirstCest
          $I->fillField("idade", "25");
          $I->click("Enviar");
          $I->see(" Aceita ");
+         $I->see("Enviar");
 
          $I->amOnPage("/exercicio3");
          $I->see("Nome:");
@@ -60,6 +62,7 @@ class FirstCest
          $I->fillField("idade", "26");
          $I->click("Enviar");
          $I->see(" Não aceita ");
+         $I->see("Enviar");
       
          $I->amOnPage("/exercicio3");
          $I->see("Nome:");
@@ -70,6 +73,7 @@ class FirstCest
          $I->fillField("idade", "25");
          $I->click("Enviar");
          $I->see(" Não aceito ");
+         $I->see("Enviar");
 
          $I->amOnPage("/exercicio3");
          $I->see("Nome:");
@@ -80,6 +84,7 @@ class FirstCest
          $I->fillField("idade", "25");
          $I->click("Enviar");
          $I->see(" Não aceito ");
+         $I->see("Enviar");
 
          $I->amOnPage("/exercicio3");
          $I->see("Nome:");
@@ -88,6 +93,7 @@ class FirstCest
          $I->selectOption("form select[name='genero']", " Não binário "); 
          $I->click("Enviar");
          $I->see(" Falta preencher o campo idade ");
+         $I->see("Enviar");
 
          $I->amOnPage("/exercicio3");
          $I->see("Nome:");
@@ -96,6 +102,7 @@ class FirstCest
          $I->selectOption("form select[name='genero']", " Masculino ");
          $I->click("Enviar");
          $I->see(" Falta preencher o campo idade ");
+         $I->see("Enviar");
 
          $I->amOnPage("/exercicio3");
          $I->see("Nome:");
@@ -104,6 +111,7 @@ class FirstCest
          $I->selectOption("form select[name='genero']", " Feminino ");
          $I->click("Enviar");
          $I->see(" Falta preencher o campo idade ");
+         $I->see("Enviar");
     }
 
 }
