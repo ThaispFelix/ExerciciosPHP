@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1 class="titulo">Exercício 8</h1>
-    <h2 id="h3">Verifique todos os valores de 1 até o número escolhido e o seu produto:</h2>
+    <h2 id="h3">Verifique todos os valores de 1 até o número escolhido e o seu produto</h2>
     <form action="/exercicio8/index.php" method="POST">
         <div>
             <label for= "numero" >Digite um número:</label>
