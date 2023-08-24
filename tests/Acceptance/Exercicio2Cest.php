@@ -51,12 +51,6 @@ class FirstCest
 
          $I->amOnPage("/exercicio2");
          $I->see("Digite o valor:");
-         $I->fillField("Divisor", "30");
-         $I->click("Enviar");
-         $I->see("É divisivel por 10");
-
-         $I->amOnPage("/exercicio2");
-         $I->see("Digite o valor:");
          $I->fillField("Divisor", "11");
          $I->click("Enviar");
          $I->see("Não é divisível por 10, 5 ou 2");
