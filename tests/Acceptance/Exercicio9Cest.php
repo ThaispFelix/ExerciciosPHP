@@ -35,7 +35,7 @@ class FirstCest
         $I->see("Exercício 9");
         $I->see("Quantas vezes deseja imprimir a palavra SOL?");
         $I->see("Digite a quantidade de vezes que SOL deve se repetir:");
-        $I->fillFiel("numero", "12");
-        $I->click("Enviar");
+        $I->fillField("numero", "12");
+        $I->click("Imprimir");
     }
 }
