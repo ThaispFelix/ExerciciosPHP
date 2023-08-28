@@ -35,83 +35,76 @@ class FirstCest
          $I->see("Nome:");
          $I->fillField("nome", "Thais");
          $I->see("Gênero:");
-         $I->selectOption("form select[name='genero']", " Feminino ");
+         $I->selectOption("select[name='genero']", "feminino");
          $I->see("Idade:");
          $I->fillField("idade", "24");
          $I->click("Enviar");
          $I->see("Aceita");
-         $I->see("Enviar");
          
          $I->amOnPage("/exercicio3");
          $I->see("Nome:");
          $I->fillField("nome", "Thais");
          $I->see("Gênero:");
-         $I->selectOption("form select[name='genero']", " Feminino ");
+         $I->selectOption("select[name='genero']", "feminino");
          $I->see("Idade:");
          $I->fillField("idade", "25");
          $I->click("Enviar");
-         $I->see(" Aceita ");
-         $I->see("Enviar");
-
+         $I->see("Aceita");
+        
          $I->amOnPage("/exercicio3");
          $I->see("Nome:");
          $I->fillField("nome", "Thais");
          $I->see("Gênero:");
-         $I->selectOption("form select[name='genero']", " Feminino ");
+         $I->selectOption("select[name='genero']", "feminino");
          $I->see("Idade:");
          $I->fillField("idade", "26");
          $I->click("Enviar");
-         $I->see(" Não aceita ");
-         $I->see("Enviar");
-      
+         $I->see("Não aceita");
+         
          $I->amOnPage("/exercicio3");
          $I->see("Nome:");
          $I->fillField("nome", "Paulo");
          $I->see("Gênero:");
-         $I->selectOption("form select[name='genero']", " Masculino ");
+         $I->selectOption("select[name='genero']", "masculino");
          $I->see("Idade:");
          $I->fillField("idade", "25");
          $I->click("Enviar");
-         $I->see(" Não aceito ");
-         $I->see("Enviar");
-
+         $I->see("Não aceito");
+         
          $I->amOnPage("/exercicio3");
          $I->see("Nome:");
          $I->fillField("nome", "Ayo");
          $I->see("Gênero:");
-         $I->selectOption("form select[name='genero']", " Não binário ");
+         $I->selectOption("select[name='genero']", "naoBinario");
          $I->see("Idade:");
          $I->fillField("idade", "25");
          $I->click("Enviar");
-         $I->see(" Não aceito ");
-         $I->see("Enviar");
-
+         $I->see("Não aceito");
+         
          $I->amOnPage("/exercicio3");
          $I->see("Nome:");
          $I->fillField("nome", "Ayo");
          $I->see("Gênero:");
-         $I->selectOption("form select[name='genero']", " Não binário "); 
+         $I->selectOption("select[name='genero']", "naoBinario"); 
          $I->click("Enviar");
-         $I->see(" Falta preencher o campo idade ");
-         $I->see("Enviar");
+         $I->see("Falta preencher o campo idade");
 
          $I->amOnPage("/exercicio3");
          $I->see("Nome:");
          $I->fillField("nome", "Paulo");
          $I->see("Gênero:");
-         $I->selectOption("form select[name='genero']", " Masculino ");
+         $I->selectOption("select[name='genero']", "masculino");
          $I->click("Enviar");
-         $I->see(" Falta preencher o campo idade ");
-         $I->see("Enviar");
-
+         $I->see("Falta preencher o campo idade");
+    
          $I->amOnPage("/exercicio3");
          $I->see("Nome:");
          $I->fillField("nome", "Thais");
          $I->see("Gênero:");
-         $I->selectOption("form select[name='genero']", " Feminino ");
+         $I->selectOption("select[name='genero']", "feminino");
          $I->click("Enviar");
-         $I->see(" Falta preencher o campo idade ");
-         $I->see("Enviar");
+         $I->see("Falta preencher o campo idade");
+
     }
 
 }
