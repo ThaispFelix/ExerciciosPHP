@@ -54,6 +54,5 @@ class FirstCest
          $I->fillField("Divisor", "11");
          $I->click("Enviar");
          $I->see("Não é divisível por 10, 5 ou 2");
-
     }
 }
