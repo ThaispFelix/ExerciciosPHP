@@ -32,9 +32,6 @@
             elseif ($Divisor) {
                 echo "<h3>Não é divisível por 10, 5 ou 2</h3>";
            }
-            elseif ($Divisor % 10 == 0) {
-                echo "<h3>É divisivel por 10</h3>";
-           }
     } 
     ?>
 </body>
