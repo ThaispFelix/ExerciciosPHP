@@ -35,7 +35,48 @@ class FirstCest
         $I->see("Exercício 9");
         $I->see("Quantas vezes deseja imprimir a palavra SOL?");
         $I->see("Digite a quantidade de vezes que SOL deve se repetir:");
+        $I->fillField("numero", "1");
+        $I->click("Imprimir");
+        $I->see("SOL");
+
+        $I->amOnPage("/exercicio9");
+        $I->see("Exercício 9");
+        $I->see("Quantas vezes deseja imprimir a palavra SOL?");
+        $I->see("Digite a quantidade de vezes que SOL deve se repetir:");
+        $I->fillField("numero", "5");
+        $I->click("Imprimir");
+        $I->see("SOL");
+        $I->see("SOL");
+        $I->see("SOL");
+        $I->see("SOL");
+        $I->see("SOL");
+
+        $I->amOnPage("/exercicio9");
+        $I->see("Exercício 9");
+        $I->see("Quantas vezes deseja imprimir a palavra SOL?");
+        $I->see("Digite a quantidade de vezes que SOL deve se repetir:");
         $I->fillField("numero", "12");
         $I->click("Imprimir");
+        $I->see("SOL");
+        $I->see("SOL");
+        $I->see("SOL");
+        $I->see("SOL");
+        $I->see("SOL");
+        $I->see("SOL");
+        $I->see("SOL");
+        $I->see("SOL");
+        $I->see("SOL");
+        $I->see("SOL");
+        $I->see("SOL");
+        $I->see("SOL");
+
+        $I->amOnPage("/exercicio9");
+        $I->see("Exercício 9");
+        $I->see("Quantas vezes deseja imprimir a palavra SOL?");
+        $I->see("Digite a quantidade de vezes que SOL deve se repetir:");
+        $I->fillField("numero", "");
+        $I->click("Imprimir");
+        $I->see("O número não é válido.");
+
     }
 }
