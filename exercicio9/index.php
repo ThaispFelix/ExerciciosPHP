@@ -17,5 +17,19 @@
         </div>     
         <input type= "submit" value="Imprimir" class="botao-input">
     </form>
+    <?php
+        if (isset($_POST["numero"])) {
+            $repeat = $_POST["numero"];
+    
+            if (is_numeric($repeat)) {
+            for ($i = 0; $i < $repeat; $i++) {
+                echo "<div> SOL </div> ";
+            }
+            } 
+            else {
+                echo "O número não é válido.";
+            }
+        }    
+    ?>
 </body>
 </html>
