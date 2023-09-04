@@ -95,61 +95,61 @@ class Exercício10Cest
         $I->amOnPage("/exercicio10");
         $I->see("Exercício 10");
         $I->see("Digite 20 números e saiba a soma dos positivos e o total de números negativos:");
-        $I->fillField("value11","11");
+        $I->fillField("value11","-11");
         $I->click("Consultar");
 
         $I->amOnPage("/exercicio10");
         $I->see("Exercício 10");
         $I->see("Digite 20 números e saiba a soma dos positivos e o total de números negativos:");
-        $I->fillField("value12","12");
+        $I->fillField("value12","-12");
         $I->click("Consultar");
 
         $I->amOnPage("/exercicio10");
         $I->see("Exercício 10");
         $I->see("Digite 20 números e saiba a soma dos positivos e o total de números negativos:");
-        $I->fillField("value13","13");
+        $I->fillField("value13","-13");
         $I->click("Consultar");
 
         $I->amOnPage("/exercicio10");
         $I->see("Exercício 10");
         $I->see("Digite 20 números e saiba a soma dos positivos e o total de números negativos:");
-        $I->fillField("value14","14");
+        $I->fillField("value14","-14");
         $I->click("Consultar");
 
         $I->amOnPage("/exercicio10");
         $I->see("Exercício 10");
         $I->see("Digite 20 números e saiba a soma dos positivos e o total de números negativos:");
-        $I->fillField("value15","15");
+        $I->fillField("value15","-15");
         $I->click("Consultar");
 
         $I->amOnPage("/exercicio10");
         $I->see("Exercício 10");
         $I->see("Digite 20 números e saiba a soma dos positivos e o total de números negativos:");
-        $I->fillField("value16","16");
+        $I->fillField("value16","-16");
         $I->click("Consultar");
 
         $I->amOnPage("/exercicio10");
         $I->see("Exercício 10");
         $I->see("Digite 20 números e saiba a soma dos positivos e o total de números negativos:");
-        $I->fillField("value17","17");
+        $I->fillField("value17","-17");
         $I->click("Consultar");
 
         $I->amOnPage("/exercicio10");
         $I->see("Exercício 10");
         $I->see("Digite 20 números e saiba a soma dos positivos e o total de números negativos:");
-        $I->fillField("value18","18");
+        $I->fillField("value18","-18");
         $I->click("Consultar");
 
         $I->amOnPage("/exercicio10");
         $I->see("Exercício 10");
         $I->see("Digite 20 números e saiba a soma dos positivos e o total de números negativos:");
-        $I->fillField("value19","19");
+        $I->fillField("value19","-19");
         $I->click("Consultar");
 
         $I->amOnPage("/exercicio10");
         $I->see("Exercício 10");
         $I->see("Digite 20 números e saiba a soma dos positivos e o total de números negativos:");
-        $I->fillField("value20","20");
+        $I->fillField("value20","-20");
         $I->click("Consultar");
 
     }
