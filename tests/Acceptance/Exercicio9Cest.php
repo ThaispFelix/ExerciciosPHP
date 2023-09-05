@@ -9,6 +9,7 @@ class Exercicio9Cest
 {
     public function _before(AcceptanceTester $I)
     {
+        
     }
 
     // tests
