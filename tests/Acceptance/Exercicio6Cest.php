@@ -8,8 +8,7 @@ use Tests\Support\AcceptanceTester;
 class Exercício6Cest
 {
     public function _before(AcceptanceTester $I)
-    {
-        
+    {  
     }
 
     // tests
