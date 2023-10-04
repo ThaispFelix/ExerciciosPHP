@@ -5,7 +5,7 @@ namespace Tests\Acceptance;
 
 use Tests\Support\AcceptanceTester;
 
-class FirstCest
+class Exercicio5Cest
 {
     public function _before(AcceptanceTester $I)
     {
